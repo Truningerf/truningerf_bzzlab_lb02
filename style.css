@@ -1,0 +1,79 @@
+HTML {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    font-family: "Atten Round New";
+    padding: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 3rem 8rem 0 8rem;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 40px;
+}
+nav ul li {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a {
+    font-size: 14pt;
+    text-decoration: none;
+    color: #000000;
+    padding: 0 2.4rem 0 2.4rem;
+    transition: 200ms;
+}
+nav ul li a:hover {
+    font-size: 18pt;
+    text-decoration: none;
+}
+main {
+    margin: 0;
+    padding: 3rem 8rem 3rem 8rem;
+}
+.article1 {
+
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+.bild1 {
+    margin: 0;
+    padding: 0;
+    transition: 500ms;
+}
+.bild1:hover {
+    opacity: 0.6;
+}
+.links:hover {
+    font-size: 12pt;
+    transition: 200ms;
+}
+footer ul {
+    margin: 0;
+    padding: 3rem 8rem 0 8rem;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 40px;
+}
+footer ul li {
+    text-decoration: none;
+    color: black;
+}
+footer ul li a {
+    font-size: 14pt;
+    text-decoration: none;
+    color: #000000;
+    padding: 0 2.4rem 0 2.4rem;
+    transition: 200ms;
+}
+footer ul li a:hover {
+    font-size: 18pt;
+    text-decoration: none;
+}
+
