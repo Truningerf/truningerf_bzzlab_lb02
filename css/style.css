@@ -4,13 +4,13 @@ HTML {
 body {
     padding-top: 56px;
 }
-#CreationExtension {
+#CreationExtension #GalleryExtension {
     padding: 10px 100px 10px 100px;
     font-size: 10pt;
-    text-decoration: none;
 }
-.CreationExtension:hover {
-
+.Collapse-bar {
+    display: flex;
+    justify-content: space-between;
 }
 .main, .side-bar{
     margin: 0;
@@ -25,6 +25,19 @@ body {
 }
 .side-bar-links {
     line-height: 30px;
+}
+/*.img-link:hover {
+    opacity: 0.7;
+    transition: 200ms;
+}*/
+.contacting {
+    margin: 8rem;
+    display: flex;
+    justify-content: center;
+}
+.contact-infos-list {
+    list-style: none;
+    line-height: 50px;
 }
 footer {
     display: block;
