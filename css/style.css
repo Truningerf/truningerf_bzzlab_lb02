@@ -24,6 +24,10 @@
 main {
     padding-top: 56px;
 }
+.switch-images {
+    object-fit: cover;
+    width: 100%;
+}
 .footer-fixed {
     padding-bottom: 72px;
 }
@@ -37,21 +41,46 @@ main {
 .side-bar-links {
     line-height: 20px;
 }
-.img-blog-container {
-    overflow: hidden;
+#blog .card img {
+    height: 400px;
 }
-.img-blog-container .img-blog {
+#blog .img-scale {
+    width: 40rem;
+    object-fit: cover;
+}
+#blog .modal img {
+    height: 300px;
+}
+#blog .img-scale_2 {
+    object-fit: cover;
+    width: 29rem;
+}
+#home img {
+    height: 680px;
+}
+#home .img-home {
+    width: 100%;
+    object-fit: cover;
+}
+.img-scale-container {
+    overflow: hidden;
+    object-fit: contain;
+}
+.img-scale-container .img-scale {
     transition: 500ms;
 }
-.img-blog-container:hover .img-blog {
+.img-scale-container:hover .img-scale {
     transform: scale(1.2);
+}
+.card {
+    width: 40%;
 }
 .img-gallery-container {
     height: 300px;
     width: 300px;
 }
 .width50rem {
-    width: 50rem;
+    width: 40rem;
 }
 .contacting {
     margin: 8rem;
