@@ -31,9 +31,6 @@ main {
 .footer-fixed {
     padding-bottom: 72px;
 }
-.main, .side-bar{
-    margin: 0;
-}
 .side-bar {
     border-left: #212529 solid 2px;
     border-right: #212529 solid 2px;
