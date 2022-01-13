@@ -59,8 +59,19 @@
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#blog4">Departement change</a>
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#blog5">Sort my Lego</a>
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#blog6">Photography portfolio</a>
+            <!-- Pagination -->
+            <div class="p-5 d-flex justify-content-center">
+                <nav aria-label="Page navigation example">
+                    <ul id="pagination" class="pagination">
+                        <li class="page-item"><a class="page-link" onclick="showPrevious()" href="#">Previous</a></li>
+                        <li class="page-item"><p class="page-link" id="showIndex"></p></li>
+                        <li class="page-item"><a class="page-link" onclick="showNext()" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
+
     <!-- Blogpost -->
     <section class="p-1">
         <div class="container">
@@ -74,6 +85,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Modal1 -->
         <div class="modal fade text-dark" id="modalblog1">
             <div class="modal-dialog">
