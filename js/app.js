@@ -6,23 +6,23 @@ let blog = undefined;
 
 //Ausgabe zeigen
 function showUI() {
-    //picture
+    //bild
     let htmlObj = document.getElementById("picture");
     htmlObj.innerHTML =
         `<a class="" href="" data-bs-toggle="modal" data-bs-target="${blog.picture.databstarget}"><img src="../images/${blog.picture.dataname}" class="card-img-top img-scale" alt="${blog.picture.alttext}"></a>`;
 
-    //title
+    //titel
     htmlObj = document.getElementById("title");
     htmlObj.innerHTML =
         `${blog.text.title}`;
 
-    //description
+    //beschreibung
     htmlObj = document.getElementById("description");
     htmlObj.innerHTML =
         `${blog.text.description}`;
 
-    //test if download is possible
-    let download = "<em>No Downloads available</em>"
+    //test ob download möglich ist
+    let download = "<em>No downloads available</em>"
     if (blog.download.possible){
         download = `<a href="../downloads/${blog.download.pdfname}" download="${blog.download.pdfname}"><i class="far fa-file-pdf"></i>&nbsp;Download (PDF)</a>`;
     }
@@ -31,7 +31,7 @@ function showUI() {
     htmlObj.innerHTML =
         `${download}`;
 
-    //date
+    //datum
     htmlObj = document.getElementById("date");
     htmlObj.innerHTML =
         `${blog.date}`;

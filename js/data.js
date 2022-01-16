@@ -12,7 +12,7 @@ let blogliste =
             },
             "download": {
                 "possible": false,
-                "pdfname": "noName",
+                "pdfname": "",
             },
             "date": "May 9 2021",
         },
@@ -28,7 +28,7 @@ let blogliste =
             },
             "download": {
                 "possible": false,
-                "pdfname": "noName",
+                "pdfname": "",
             },
             "date": "April 26 2021",
         },
@@ -60,7 +60,7 @@ let blogliste =
             },
             "download": {
                 "possible": false,
-                "pdfname": "noName",
+                "pdfname": "",
             },
             "date": "April 11 2021",
         },
@@ -76,7 +76,7 @@ let blogliste =
             },
             "download": {
                 "possible": false,
-                "pdfname": "noName",
+                "pdfname": "",
             },
             "date": "March 18 2021",
         },
