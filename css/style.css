@@ -96,3 +96,31 @@ footer {
 #footer-link:hover {
     text-decoration: underline;
 }
+
+:root {
+    --success-color: #5cb85c;
+    --error-color: #cD4c27;
+}
+
+input, textarea {
+    border-width: medium !important;
+}
+
+.control-form.success input {
+    border-color: var(--success-color);
+}
+.control-form.error input {
+    border-color: var(--error-color);
+}
+
+.control-form small {
+    color: var(--error-color);
+    position: absolute;
+    /* bottom: 0;*/
+    left: 1rem;
+    visibility: hidden;
+    font-size: .75rem;
+}
+.control-form.error small {
+    visibility: visible;
+}
