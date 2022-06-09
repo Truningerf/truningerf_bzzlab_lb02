@@ -1,0 +1,47 @@
+[
+  {
+    "id": "d3b1cf8c-5f43-4014-85a1-9169c237048f",
+    "firstname": "",
+    "lastname": "",
+    "email": "",
+    "phone": "",
+    "birthdate": "",
+    "subject": ""
+  },
+  {
+    "id": "c16a4dd4-d910-4bbc-885a-50b2f50590d6",
+    "firstname": "Fabian",
+    "lastname": "Truninger",
+    "email": "truningerf@bzz.ch",
+    "phone": "0774580050",
+    "birthdate": "08.01.2005",
+    "subject": "Kontaktanfrage Projekt LB02"
+  },
+  {
+    "id": "8e94f926-2956-4a2b-8e2a-bad32b405ab1",
+    "firstname": "h2",
+    "lastname": "h3",
+    "email": "irgendwas.ch",
+    "phone": "2022",
+    "birthdate": "3.4",
+    "subject": "IrgendwasUndIrgendwasUndIrgendwasUndIrgendwas"
+  },
+  {
+    "id": "5b26cda7-6865-4c2f-b750-ee47d7db96a7",
+    "firstname": "Hans",
+    "lastname": "Muster",
+    "email": "hans.muster@gmail.ch",
+    "phone": "0797774477",
+    "birthdate": "08.02.2005",
+    "subject": "Fehlerhinweis"
+  },
+  {
+    "id": "718e8203-468f-48f4-94a1-e81f1ef4c6be",
+    "firstname": "Anna",
+    "lastname": "Muster",
+    "email": "anna.muster@gmail.ch",
+    "phone": "0794447744",
+    "birthdate": "08.02.2006",
+    "subject": "Kompliment"
+  }
+]
