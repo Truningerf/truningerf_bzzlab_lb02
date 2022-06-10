@@ -91,7 +91,7 @@ function getFieldName(input){
 
 // validate form input elements
 function validateForm(){
-    if (!checkRequired([firstname, lastname, email, phone, subject])){
+    if (!checkRequired([firstname, lastname, email, phone, birthdate, subject])){
         checkLength(firstname, 3,20);
         checkLength(lastname, 2, 30);
         checkEmail(email);
