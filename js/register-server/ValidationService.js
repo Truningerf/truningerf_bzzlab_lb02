@@ -37,11 +37,11 @@ function validateUser(userObj){
 
     // check phone syntax
     result = validateLib.checkPhone("phone", userObj.phone);
-    if (result.isNotValid) { return result;}
+    if(result.isNotValid) {return result; }
 
-    // check date syntax
+    //check date
     result = validateLib.checkDate("birthdate", userObj.birthdate);
-    if (result.isNotValid) { return result;}
+    if(result.isNotValid) {return result; }
 
     // all inputs are valid and isNotValid=false
     return false;
